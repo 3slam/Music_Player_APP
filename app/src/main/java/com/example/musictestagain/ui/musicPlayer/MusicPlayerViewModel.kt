@@ -68,6 +68,7 @@ class MusicPlayerViewModel @Inject constructor(
             is PlayerEvents.AddPlaylist -> playerController.addPlaylist(event.musics)
             is PlayerEvents.SeekForward -> playerController.seekForward()
             is PlayerEvents.SeekBack -> playerController.seekBack()
+            else -> {}
         }
     }
 

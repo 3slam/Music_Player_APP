@@ -1,0 +1,40 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidProject/MusicTestAgain/app/src/main/res/drawable/circule_background.xml" value="0.1695" />
+        <entry key="..\:/AndroidProject/MusicTestAgain/app/src/main/res/drawable/corner_image.xml" value="0.1695" />
+        <entry key="..\:/AndroidProject/MusicTestAgain/app/src/main/res/drawable/custom_seek_bar.xml" value="0.1615" />
+        <entry key="..\:/AndroidProject/MusicTestAgain/app/src/main/res/drawable/gradient_background.xml" value="0.1695" />
+        <entry key="..\:/AndroidProject/MusicTestAgain/app/src/main/res/drawable/gradient_background_bottom.xml" value="0.2055" />
+        <entry key="..\:/AndroidProject/MusicTestAgain/app/src/main/res/drawable/thumb.xml" value="0.1615" />
+        <entry key="..\:/AndroidProject/MusicTestAgain/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/AndroidProject/MusicTestAgain/app/src/main/res/layout/activity_on_boarding.xml" value="0.2" />
+        <entry key="..\:/AndroidProject/MusicTestAgain/app/src/main/res/layout/activity_on_boarding2.xml" value="0.25226449275362317" />
+        <entry key="..\:/AndroidProject/MusicTestAgain/app/src/main/res/layout/bottom_control_music_panel.xml" value="0.25181159420289856" />
+        <entry key="..\:/AndroidProject/MusicTestAgain/app/src/main/res/layout/home_fragment.xml" value="0.25226449275362317" />
+        <entry key="..\:/AndroidProject/MusicTestAgain/app/src/main/res/layout/music_fragment.xml" value="0.2" />
+        <entry key="..\:/AndroidProject/MusicTestAgain/app/src/main/res/layout/music_item.xml" value="0.22871376811594202" />
+        <entry key="..\:/AndroidProject/MusicTestAgain/app/src/main/res/layout/on_boarding_fragment_one.xml" value="0.25226449275362317" />
+        <entry key="..\:/AndroidProject/MusicTestAgain/app/src/main/res/layout/on_boarding_fragment_three.xml" value="0.25226449275362317" />
+        <entry key="..\:/AndroidProject/MusicTestAgain/app/src/main/res/layout/on_boarding_fragment_two.xml" value="0.25226449275362317" />
+        <entry key="..\:/AndroidProject/MusicTestAgain/app/src/main/res/layout/player_panel.xml" value="0.25181159420289856" />
+        <entry key="..\:/AndroidProject/MusicTestAgain/app/src/main/res/layout/single_item.xml" value="0.25226449275362317" />
+        <entry key="..\:/AndroidProject/MusicTestAgain/app/src/main/res/layout/texti_item.xml" value="0.25226449275362317" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.2" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
