@@ -16,7 +16,7 @@ Music Player app is a sample Android application for playing musics.
   
 - User-Friendly Interface.
 
-# Sceeens
+# Screens
 
 <div>
  <img src ="https://github.com/3slam/Music_Player_APP/assets/82102228/88c86560-a7ae-46c0-94b6-a0849bcc8007.jpg" width="250" hight="400">
