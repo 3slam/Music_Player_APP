@@ -15,9 +15,6 @@ Music Player app is a sample Android application for playing musics.
 - Notifications ➡ Receive real-time notifications with track information and playback controls.
   
 - User-Friendly Interface.
-  **Demo Video**<br/>
-
- https://github.com/3slam/Music_Player_APP/assets/82102228/4af4d121-0c0b-4a8a-b03a-fbac41f32ab2
 
  #  libraries and tools
 
