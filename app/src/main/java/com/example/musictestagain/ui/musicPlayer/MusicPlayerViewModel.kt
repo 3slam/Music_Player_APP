@@ -18,12 +18,15 @@ import javax.inject.Inject
 
 @HiltViewModel
 class MusicPlayerViewModel @Inject constructor(
-    player: ExoPlayer,
-    @ApplicationContext context: Context
+     player: ExoPlayer,
+     @ApplicationContext context: Context
 ) : ViewModel() {
 
     private var _currentSong = MutableStateFlow(MusicItemWithInitialValue)
     val currentSongFlow = _currentSong.asStateFlow()
+
+    private var _isViewModelStart = MutableStateFlow(false)
+    val isViewModelStart = _currentSong.asStateFlow()
 
     private var _currentMediaPosition = MutableStateFlow(0f)
     val currentMediaPosition = _currentMediaPosition.asStateFlow()
@@ -55,6 +58,7 @@ class MusicPlayerViewModel @Inject constructor(
     init {
         player.addListener(playerController)
         playerController.setupMediaNotification(context)
+
     }
 
     fun onPlayerEvents(event: PlayerEvents) {

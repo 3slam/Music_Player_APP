@@ -61,6 +61,7 @@ class HomeFragment: BaseFragment<HomeFragmentBinding>() , OnMusicListener {
 
 
     override fun onMusicClick( position: Int) {
+            binding.bottomControlMusicPanel.root.visibility = View.VISIBLE
            musicPlayerViewModel.onPlayerEvents(PlayerEvents.GoToSpecificItem(position))
     }
 

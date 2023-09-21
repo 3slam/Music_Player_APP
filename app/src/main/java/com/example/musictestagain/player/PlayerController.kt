@@ -12,13 +12,15 @@ import com.example.musictestagain.data.model.Music
 import com.example.musictestagain.utilities.toMusicItem
 import com.google.common.util.concurrent.ListenableFuture
 import com.google.common.util.concurrent.MoreExecutors
+import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.launch
+import javax.inject.Inject
 
-class PlayerController(
+class PlayerController (
     private val player: ExoPlayer,
     private var currentSong: MutableStateFlow<Music>,
     private var currentMediaPosition: MutableStateFlow<Float>,
@@ -30,7 +32,6 @@ class PlayerController(
     private var isRepeatClicked: MutableStateFlow<Boolean>,
     private val viewModelScope: CoroutineScope
 ) : Player.Listener{
-
 
     var duration: Long = 0
 
